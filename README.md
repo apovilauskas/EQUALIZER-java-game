@@ -2,6 +2,13 @@
 
 The Equalizer is a top-down action-puzzle game focused on evasion, timing, and level navigation. The player must avoid enemies, collect speed upgrades, and reach the goal diamond to complete each level.
 
+## How to start playing
+
+- Download 'Equalizer' folder ('MapMaker' too if youre planning on changing or adding new maps)
+- Open it in the Processing.org application
+- On Processing.org, install the 'Sound' library
+- Press PLAY
+
 ## Gameplay Overview
 
 - Top-down 2D camera with smooth scrolling
@@ -44,7 +51,6 @@ The Equalizer is a top-down action-puzzle game focused on evasion, timing, and l
 ## Technologies Used
 
 - Processing (Java mode)
-- Processing Sound library
 - CSV-based level design
 - Sprite-based animation
 
@@ -54,12 +60,8 @@ The Equalizer is a top-down action-puzzle game focused on evasion, timing, and l
 - Missing assets fall back to simple geometric shapes
 - Background music changes per level if available
 
-## Status
-
-Prototype / early version  
-More levels and content can be added by extending map files and assets.
-
 ## Coming soon
+
 - Hidden mines and a gadget that lets the player see the mines
 - Chasing guards (using manhattan distance calculations)
 - Laser beams (moving or on/off type)
